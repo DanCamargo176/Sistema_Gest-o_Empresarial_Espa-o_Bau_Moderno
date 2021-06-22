@@ -1,0 +1,12 @@
+.table{width:50% !important; height:100% !important;}
+
+.rodape{width:100%;
+height:100px;
+float:left;
+margin-top:25px;
+background-color:#CCC;}
+
+borda_inferior{border-bottom-color:#000 1px solid !important;}
+.txtarea {
+height: 100px !important;
+}

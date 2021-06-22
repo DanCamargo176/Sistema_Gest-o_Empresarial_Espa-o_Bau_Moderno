@@ -1,0 +1,72 @@
+
+@charset "utf-8";
+
+
+.tabela_login{width:200px !important; height:150px !important; border:none !important; margin-bottom:30% !important;}
+
+form{width:200px !important; height:150px !important; border:none !important; margin-left:40% !important;}
+
+
+@media (max-width: 600px) {
+    form {
+      width:100px !important; height:40px !important; margin-left:10% !important; margin-bottom:100px !important;}
+    }
+	
+#todoConteudo{width:100% !important; height:100% !important;}
+
+footer{margin-top:10% !important;}
+.well{height:100px !important;}
+.carousel{height:320px !important;}
+
+.rodapeTotal{margin-top:10% !important; width:100% !important; background-color:#f5f5f5 !important;}	
+
+
+.fb{float:left !important; margin: 0px !important;}
+.instagram{float:left !important; margin-left:65px !important;}
+.wpp{float:left !important; margin-left:15px !important;}
+
+
+
+section{position:absolute !important; display:inline-table !important;}
+
+fieldset {width: 50%; background: #FFE8EF; padding: 0px; } fieldset legend { background: #CCA383; padding: 6px; font-weight: bold; }
+
+.center-block{margin-top:20px !important;}
+
+.rodape_adm{height:80px !important; width:100% !important; background-color:#f5f5f5 !important; margin-top:35% !important; margin-bottom:0px !important;}
+
+#produtos{
+	max-height:2000px !important;
+	min-height:850px !important;
+	width:100% !important;
+	background-color:none;
+	float:left;}
+	
+.rodape_novidades{float:none !important; clear:both !important;
+ margin-top:10% !important; width:100% !important; background-color:#f5f5f5 !important; max-height:50px !important; min-height:30px !important;
+}
+
+.novidades_field{margin-top:1% !important;}
+
+.txtarea {
+height: 100px !important;
+}
+
+.tabela_novidades img{padding:0.5em !important; width:100% !important; max-width:250px !important; }
+
+.aloja{margin-top:1% !important;}
+
+.tutorial{float:right !important; border-radius:10px !important; margin-top:1% !important; margin-right:1% !important;}
+
+.legenda_tutorial{border-radius:10px !important; margin-top:1% !important; margin-right:1% !important;}
+
+@media (max-width: 1000px){.tutorial{float:left !important; border-radius:10px !important; margin-top:30% !important; margin-left:1% !important;}
+
+.legenda_tutorial{border-radius:10px !important; margin-top:30% !important; margin-left:1% !important;}
+}
+
+p {
+
+text-align: justify center;
+
+}

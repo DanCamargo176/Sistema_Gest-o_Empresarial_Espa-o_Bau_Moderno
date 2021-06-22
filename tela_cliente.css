@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.tela_cliente{float: left !important;
+width:100% !important;
+height:50% !important;
+}
+
+.titulo_cliente{ border-bottom: 1px solid #000000 !important;}
+
+.dropdown{margin-top:10px !important;}
+

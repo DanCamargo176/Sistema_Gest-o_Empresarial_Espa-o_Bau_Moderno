@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Espaço Baú Moderno</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  .fb{
+	  clear:both;}
+  .wpp{
+	  clear:both;}
+	  
+	  .rede_social{float:left;
+	  clear:both;
+	  margin: 1px 1px 1px 1px solid #FF0004;
+	  margin-bottom:2px solid #261DFF;}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <span class="" aria-hidden="true"></span>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php">Espaço Baú Moderno</a>
+</div></nav>
+
+<div id="container">
+<div class="container-fluid"><center><h1>Área Administrativa</h1></p><h4>Espaço Baú Moderno</h4></center></div>
+    <div class="logar">
+    <br>
+    <form action="valida.php" method="post" lang="pt"> 
+<table class="table table-striped table-bordered table-responsive tabela_login">
+  <tr>
+    <th scope="col">Usuário:</th>
+    <th scope="col"><input type="text" name="usuario"></th>
+  </tr>
+  <tr>
+    <th scope="col">Senha:</th>
+    <th scope="col"><input type="password" name="senha"></th>
+  </tr>
+  <tr>
+    <th scope="col">Nivel de Acesso:</th>
+    <th scope="col"><input type="radio" name="nivel" value="administrador" required> Administrador	
+    </br><input type="radio" name="nivel" value="funcionario" required> Funcionário
+    </th>
+  </tr>
+  <tr>
+    <td></td>
+    <td><center><input type="submit" name="entrar" value="Entrar"> <input type="reset" name="limpar" value="Limpar"></center></td>
+  </tr>
+</table>
+</form>
+    </div>
+</body>
+</html>
